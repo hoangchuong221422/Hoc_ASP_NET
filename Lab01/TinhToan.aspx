@@ -8,7 +8,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
-        }
+        }      
         .auto-style2 {
             text-align: center;
         }
@@ -70,6 +70,12 @@
                     <td class="auto-style7">Kết quả</td>
                     <td class="auto-style8">
                         <asp:TextBox ID="txtKetQua" runat="server" ReadOnly="true"></asp:TextBox>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="auto-style7">Kết quả</td>
+                    <td class="auto-style8">
+                        <asp:TextBox ID="TextBox1" runat="server" ReadOnly="true"></asp:TextBox>
                     </td>
                 </tr>
             </table>
