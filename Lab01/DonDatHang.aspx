@@ -66,8 +66,14 @@
                     </td>
                 </tr>
                 <tr>
+                    <td style="vertical-align: top" class="auto-style2">
+                        <asp:Button CssClass="btnInDon" ID="btnInDon" runat="server" Text="In đơn đặt hàng" OnClick="btnInDon_Click" />
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
                     <td colspan="2" class="auto-style3">
-                        <asp:Button CssClass="btnInDon" ID="btnInDon" runat="server" Text="In đơn đặt hàng" />
+                        <asp:Label ID="lblthongtin" runat="server"></asp:Label>
                     </td>
                 </tr>
             </table>
