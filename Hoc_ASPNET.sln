@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01", "Lab01\Lab01.csproj", "{D9E46249-B7BE-4857-A46D-5D73092EB889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLWebDaoTao", "QLWebDaoTao\QLWebDaoTao.csproj", "{EF8383CC-FE49-429E-B1D9-F21554925903}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebQLDaoTao", "QLWebDaoTao\WebQLDaoTao.csproj", "{EF8383CC-FE49-429E-B1D9-F21554925903}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

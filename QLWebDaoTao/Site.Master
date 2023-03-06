@@ -46,31 +46,30 @@
 
     <div class="container" style="margin-top: 30px">
         <div class="row">
-            <div class="col-sm-4">              
+            <div class="col-sm-4">
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link active" href="#">Chức năng chính</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="QLMonHoc.aspx">Quản lý môn học</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="QLKhoa.aspx">Quản lý khoa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="QLSinhVien.aspx">Quản lý sinh viên</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="QLKetQua.aspx">Quản lý điểm</a>
                     </li>
                 </ul>
                 <hr class="d-sm-none">
             </div>
-            <div class="col-sm-8">
-                 
-                <div>  <%--Code here--%>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
-                    </asp:ContentPlaceHolder>
-                </div>
-
+            <div class="col-md-8">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <h1>Master</h1>
+                </asp:ContentPlaceHolder>
             </div>
         </div>
     </div>
