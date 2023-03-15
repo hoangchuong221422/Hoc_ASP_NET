@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33213.308
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01", "Lab01\Lab01.csproj", "{D9E46249-B7BE-4857-A46D-5D73092EB889}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebQLDaoTao", "QLWebDaoTao\WebQLDaoTao.csproj", "{EF8383CC-FE49-429E-B1D9-F21554925903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanHoa", "WebBanHoa\WebBanHoa.csproj", "{3055090F-38BD-48A2-90F1-39ED4352A52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab00", "Lab00\Lab00.csproj", "{9C51A7DE-413E-442F-B3A5-925251F25EC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{EF8383CC-FE49-429E-B1D9-F21554925903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8383CC-FE49-429E-B1D9-F21554925903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8383CC-FE49-429E-B1D9-F21554925903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3055090F-38BD-48A2-90F1-39ED4352A52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3055090F-38BD-48A2-90F1-39ED4352A52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3055090F-38BD-48A2-90F1-39ED4352A52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3055090F-38BD-48A2-90F1-39ED4352A52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C51A7DE-413E-442F-B3A5-925251F25EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C51A7DE-413E-442F-B3A5-925251F25EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C51A7DE-413E-442F-B3A5-925251F25EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C51A7DE-413E-442F-B3A5-925251F25EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
