@@ -1,0 +1,48 @@
+﻿body {
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.data_items {
+    width: 100%;
+    
+}
+
+    .data_items .items {
+        float: left;
+        /*width: calc(25% - 10px);*/
+        width: calc(25% - 10px);
+        height: 350px;
+        margin: 5px 10px 20px 0px;
+    }
+
+        .data_items .items .i {
+            width: 100%;
+            border: 1px solid #000000;
+        }
+
+            .data_items .items .i img {
+                width: 100%;
+                height: 200px;
+                object-fit: contain;
+            }
+
+        .data_items .items .t {
+            text-align: center;
+            border: 1px solid #000000;
+            border-top: none;
+        }
+
+
+table, th, tr, td {
+    border: 1px #808080;
+    padding: 2px;
+}
+
+a{
+    color: red;
+}

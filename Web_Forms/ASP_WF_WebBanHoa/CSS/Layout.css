@@ -1,0 +1,44 @@
+﻿body {
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.data_items {
+    width: 100%;
+    padding: 50px;
+}
+
+    .data_items .items {
+        float: left;
+        /*width: calc(25% - 10px);*/
+        width: calc(25% - 10px);
+        margin: 5px 10px 10px 0px;
+
+    }
+
+        .data_items .items .i {
+            width: 100%;
+            border: 1px solid #000000;
+        }
+
+            .data_items .items .i img {
+                width: 100%;
+                height: 200px;
+                object-fit: contain;
+            }
+
+        .data_items .items .t {
+            text-align: center;
+            border: 1px solid #000000;
+            border-top: none;
+        }
+
+
+table, th, tr, td {
+    border: 1px solid black;
+    padding: 2px;
+}

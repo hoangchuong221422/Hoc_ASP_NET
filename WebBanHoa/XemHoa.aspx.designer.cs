@@ -24,15 +24,6 @@ namespace WebBanHoa
         protected global::System.Web.UI.WebControls.DropDownList drlLoaiHoa;
 
         /// <summary>
-        /// sqlLoaiHoa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sqlLoaiHoa;
-
-        /// <summary>
         /// rptHoa control.
         /// </summary>
         /// <remarks>
@@ -40,6 +31,15 @@ namespace WebBanHoa
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptHoa;
+
+        /// <summary>
+        /// sqlLoaiHoa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource sqlLoaiHoa;
 
         /// <summary>
         /// sqlDsHoaTheoLoai control.
