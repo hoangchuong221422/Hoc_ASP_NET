@@ -1,1 +1,2 @@
-thử lần 1
+git thử lần 1
+git thử lần 2
