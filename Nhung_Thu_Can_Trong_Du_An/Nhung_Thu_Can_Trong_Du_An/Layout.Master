@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="Nhung_Thu_Can_Trong_Du_An.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Main.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">BookStore</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="XemSach.aspx">Xem sách</a></li>
+                    <li><a href="QTSach.aspx">Quản trị</a></li>
+                </ul>
+            </div>
+        </nav>
+      
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+    </form>
+</body>
+</html>
